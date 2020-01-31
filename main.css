@@ -1,0 +1,29 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#title {
+    margin: 3vh 3vw;
+}
+
+#console {
+    background-color: black;
+    color: green;
+    margin: 3vh 3vw;
+    padding: 2vh 2vw;
+    font-size: 1.3em;
+    max-height: 50vh;
+    min-height: 50vh;
+    height: 50vh;
+    overflow: auto;
+}
+
+#input {
+    margin: 3vh 3vw;
+    font-size: 1.3em;
+}
+
+#input button {
+    margin-left: 2vw;
+}
