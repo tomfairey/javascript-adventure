@@ -137,9 +137,11 @@ function handleInput(userInput = "") {
             currentLocation = locations[newLocationID]
         }
     } else if(userInput === "location") {
+        let string = "";
         for(i = 0; i < 5; i++) {
-            Output(currentLocation.getName(), ".");
+            string += currentLocation.getName()+". ";
         }
+        Output(string);
     } else if(userInput === "inventory") { /* <COMPLETE> Task 6 - Add a command list the inventory */
         if(inventory.length !== 0) {
             Output("In your inventory is:", "YELLOW");
