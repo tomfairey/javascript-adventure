@@ -219,6 +219,7 @@ function commenceTurn() {
                 document.getElementById("userTextButton").click();
             }
         });
+        Output("Commands: inventory|pickup|location alongside the directions shown...", "\n", "BLUE");
     }
 
     currentLocation.display();
